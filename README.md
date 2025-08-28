@@ -1,5 +1,7 @@
 # Fine-grained Multi-class Nuclei Segmentation with Molecular-empowered All-in-SAM Model
 
+![All-in-SAM Framework]framework.png)
+
 ## Abstract
 
 **Purpose:** Advances in Vision Foundation Models (VFMs), such as the **Segment Anything Model (SAM)**, have propelled the field of computational pathology. SAM offers versatile nuclei segmentation via prompt-based zero-shot methods or specialized SAM models. However, general VFMs often struggle with **fine-grained semantic segmentation**, such as differentiating nuclei subtypes or specific cell types.
