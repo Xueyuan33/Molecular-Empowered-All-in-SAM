@@ -10,3 +10,8 @@ to reduce the need for detailed pixel-level annotations, (2) learning—adapting
 accuracy by integrating Molecular-Oriented Corrective Learning (MOCL). **Results:** Experimental results from both in-house and public datasets show that the All-in-SAM model significantly improves cell classification performance,
 even when faced with varying annotation quality. **Conclusions:** Our approach not only reduces the workload for annotators but also extends the accessibility of precise biomedical image analysis to resource-limited settings, thereby
 advancing medical diagnostics and automating pathology image analysis.
+
+
+## Install Segment Anything:
+
+> pip install git+https://github.com/facebookresearch/segment-anything.git
