@@ -12,6 +12,8 @@ even when faced with varying annotation quality. **Conclusions:** Our approach n
 advancing medical diagnostics and automating pathology image analysis.
 
 
-## Install Segment Anything:
+## Installation
+
+### Install Segment Anything:
 
 > pip install git+https://github.com/facebookresearch/segment-anything.git
