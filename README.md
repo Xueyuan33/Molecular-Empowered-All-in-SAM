@@ -1,7 +1,7 @@
 # Fine-grained Multi-class Nuclei Segmentation with Molecular-empowered All-in-SAM Model
 
 <p align="center">
-  <img src="framework.png" alt="All-in-SAM Framework" width="300"/>
+  <img src="framework.png" alt="All-in-SAM Framework" width="360"/>
 </p>
 
 
