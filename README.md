@@ -1,19 +1,26 @@
-## Fine-grained Multi-class Nuclei Segmentation with Molecular-empowered All-in-SAM Model
+# Fine-grained Multi-class Nuclei Segmentation with Molecular-empowered All-in-SAM Model
 
 ## Abstract
 
-**Purpose:** Recent developments in computational pathology have been driven by advances in Vision Foundation Models, particularly the Segment Anything Model (SAM). This model facilitates nuclei segmentation through
-two primary methods: prompt-based zero-shot segmentation and the use of cell-specific SAM models for direct segmentation. These approaches enable effective segmentation across a range of nuclei and cells. However, general vision
-foundation models often face challenges with fine-grained semantic segmentation, such as identifying specific nuclei subtypes or particular cells. **Approach:** In this paper, we propose the molecular-empowered All-in-SAM Model to
-advance computational pathology by leveraging the capabilities of vision foundation models. This model incorporates a full-stack approach, focusing on: (1) annotation—engaging lay annotators through molecular-empowered learning
-to reduce the need for detailed pixel-level annotations, (2) learning—adapting the SAM model to emphasize specific semantics, which utilizes its strong generalizability with SAM adapter, and (3) refinement—enhancing segmentation
-accuracy by integrating Molecular-Oriented Corrective Learning (MOCL). **Results:** Experimental results from both in-house and public datasets show that the All-in-SAM model significantly improves cell classification performance,
-even when faced with varying annotation quality. **Conclusions:** Our approach not only reduces the workload for annotators but also extends the accessibility of precise biomedical image analysis to resource-limited settings, thereby
-advancing medical diagnostics and automating pathology image analysis.
+**Purpose:** Advances in Vision Foundation Models (VFMs), such as the **Segment Anything Model (SAM)**, have propelled the field of computational pathology. SAM offers versatile nuclei segmentation via prompt-based zero-shot methods or specialized SAM models. However, general VFMs often struggle with **fine-grained semantic segmentation**, such as differentiating nuclei subtypes or specific cell types.
 
+**Approach:** We propose the **Molecular-empowered All-in-SAM Model**, a full-stack framework designed to enhance SAM’s capabilities for precise biomedical image analysis, featuring:
+
+1. **Annotation** – Utilizes molecular-empowered learning with non-expert annotators to minimize dependence on detailed, pixel-level annotations.  
+2. **Learning** – Employs lightweight SAM adapters to adapt the model for enhanced domain-specific semantic sensitivity while preserving generalizability.  
+3. **Refinement** – Integrates **Molecular-Oriented Corrective Learning (MOCL)** to further refine segmentation accuracy.  
+
+**Results:** Evaluations conducted on both internal and public datasets demonstrate substantial improvements in nuclei classification and segmentation performance—even under variable annotation quality.  
+
+**Conclusions:** This framework significantly reduces the annotation burden, broadens access to high-quality pathology image analysis in resource-limited settings, and supports advancements in medical diagnostic automation.  
+
+**Paper link:** [Fine-grained Multi-class Nuclei Segmentation with Molecular-empowered All-in-SAM Model (arXiv:2508.15751)](https://arxiv.org/abs/2508.15751)  
+**Publication:** Accepted by *Journal of Medical Imaging*.  
+
+---
 
 ## Installation
 
-### Install Segment Anything:
-
-> pip install git+https://github.com/facebookresearch/segment-anything.git
+### Install Segment Anything
+```bash
+pip install git+https://github.com/facebookresearch/segment-anything.git
